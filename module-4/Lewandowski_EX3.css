@@ -1,0 +1,65 @@
+/*
+Caleb Lewandowski
+April 3, 2021
+Module 4.3 Assignment
+*/
+
+body {
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+}
+
+h1 {
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    text-align: center;
+}
+
+h3 {
+    font-weight: 500;
+}
+
+ol, ul {
+    font-weight: 300;
+}
+
+ul {
+    list-style-type: upper-roman;
+}
+
+a {
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.left, .right {
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    width: 45%;
+    border-width: 1px;
+    border-color: #ff0000;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.left {
+    border-style: solid;
+    float: left;
+}
+
+.right {
+    border-style: dashed;
+    float: right;
+}
+
+.toTop {
+    float: right;
+}
+
+#last {
+    width: 100%;
+    margin-top: 60%;
+    float: right;
+    margin-bottom: 20px;
+}
