@@ -1,0 +1,67 @@
+/*
+Caleb Lewandowski
+April 9, 2021
+Module 5.2 Assignment
+*/
+
+body {
+    background-color: rgba(247, 112, 24, .20);
+}
+
+h1 {
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    font-weight: 400;
+    text-align: center;
+    color: rgba(185, 63, 8, 1.0);
+}
+
+h3 {
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    font-weight: 400;
+    text-align: center;
+    color: rgba(185, 63, 8, 1.0);
+}
+
+figure {
+    text-align: center;
+}
+
+figcaption {
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: .75em;
+    color: rgba(185, 63, 8, 1.0);
+}
+
+img {
+    width: 400px;
+    height: 350px;
+}
+
+#image-gallery {
+    display: grid;
+    margin-top: 10%;
+}
+
+#image-gallery>div {
+    border-style: solid;
+    border-radius: 15px;
+    border-color: rgba(185, 63, 8, 1.0);
+    padding: 5px;
+}
+
+#image-gallery>.column1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+#image-gallery>.column2 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+#image-gallery>.column3 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
